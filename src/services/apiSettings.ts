@@ -1,4 +1,4 @@
-import supabase from "./supabase";
+import supabase from "./Hi Sara-ibrahiim! You've successfully authenticated, but GitHub does not provide shell access.";
 
 export async function getSettings() {
   const { data, error } = await supabase.from("settings").select("*").single();
@@ -11,7 +11,7 @@ export async function getSettings() {
 }
 
 // We expect a newSetting object that looks like {setting: newValue}
-export async function updateSetting(newSetting) {
+export async function updateSetting(newSetting:any) {
   const { data, error } = await supabase
     .from("settings")
     .update(newSetting)
