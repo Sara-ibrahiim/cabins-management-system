@@ -10,10 +10,6 @@ function Account() {
         <Heading as="h3">Update user data</Heading>
         <p>Update user data form</p>
       </Row>
- <Row>
-        <Heading as="h3">Update user data</Heading>
-        <p>Update user data form</p>
-      </Row>
 
       <Row>
         <Heading as="h3">Update password</Heading>
